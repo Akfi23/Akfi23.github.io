@@ -1,40 +1,155 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | test</title>
+    <title>TestTelegramLocation</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
   </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/test.loader.js"></script>
+  <body class="dark">
     <script>
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
-
-        var canvas = document.querySelector("#unity-canvas");
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
-        canvas.style.position = "fixed";
-
-        document.body.style.textAlign = "left";
+      if (window.Telegram && window.Telegram.WebApp) {
+        console.log('Telegram WebApp успешно подключен');
+        console.log('Версия API:', window.Telegram.WebApp.version);
       }
-
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/test.data.br",
-        frameworkUrl: "Build/test.framework.js.br",
-        codeUrl: "Build/test.wasm.br",
+    </script>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+    </div>
+    <div id="loading-cover" style="display:none;">
+      <div id="unity-loading-bar">
+        <div id="unity-logo"><img src="logo.png"></div>
+        <div id="unity-progress-bar-empty" style="display: none;">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <div id="unity-fullscreen-button" style="display: none;"></div>
+    <script>
+      const hideFullScreenButton = "";
+      const buildUrl = "Build";
+      const loaderUrl = buildUrl + "/Gnome_build_wgl.loader.js";
+      const config = {
+        dataUrl: buildUrl + "/Gnome_build_wgl.data.unityweb",
+        frameworkUrl: buildUrl + "/Gnome_build_wgl.framework.js.unityweb",
+        codeUrl: buildUrl + "/Gnome_build_wgl.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "test",
+        productName: "geo-gnomes",
         productVersion: "1.0",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      };
+
+      const container = document.querySelector("#unity-container");
+      const canvas = document.querySelector("#unity-canvas");
+      const loadingCover = document.querySelector("#loading-cover");
+      const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
+      const progressBarFull = document.querySelector("#unity-progress-bar-full");
+      const fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      const spinner = document.querySelector('.spinner');
+
+      const canFullscreen = (function() {
+        for (const key of [
+            'exitFullscreen',
+            'webkitExitFullscreen',
+            'webkitCancelFullScreen',
+            'mozCancelFullScreen',
+            'msExitFullscreen',
+          ]) {
+          if (key in document) {
+            return true;
+          }
+        }
+        return false;
+      }());
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+      }
+      loadingCover.style.display = "";
+
+      const script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          spinner.style.display = "none";
+          progressBarEmpty.style.display = "";
+          progressBarFull.style.width = `${100 * progress}%`;
+        }).then((unityInstance) => {
+          window.unityInstance = unityInstance;
+          loadingCover.style.display = "none";
+          
+          if (canFullscreen) {
+            if (!hideFullScreenButton) {
+              fullscreenButton.style.display = "";
+            }
+            fullscreenButton.onclick = () => {
+              unityInstance.SetFullscreen(1);
+            };
+          }
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+    <unity-webgl-input></unity-webgl-input>
+    <script>
+      const isIOS18 = /OS 18_|iPhone OS 18/.test(navigator.userAgent);
+
+      function forceReload() {
+        const timestamp = new Date().getTime();
+        window.location.href = window.location.href.split('?')[0] + '?t=' + timestamp;
+      }
+
+      window.addEventListener('error', (e) => {
+        if (isIOS18 && e.message.includes('WebGL')) {
+          document.getElementById('unity-container').style.display = 'none';
+          document.body.innerHTML += `
+        <div style="
+          position: fixed; 
+          top: 0; 
+          left: 0; 
+          width: 100%; 
+          height: 100%; 
+          background: white; 
+          z-index: 9999;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: Arial;
+        ">
+          <p style="font-size: 18px;">Ошибка загрузки на iOS 18</p>
+          <button onclick="forceReload()" style="
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: #007aff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+          ">
+            Обновить
+          </button>
+        </div>
+      `;
+        }
       });
+
+      if (isIOS18) {
+        setTimeout(() => {
+          if (!window.unityInstance) {
+            forceReload();
+          }
+        }, 8000);
+      }
     </script>
   </body>
 </html>
