@@ -7,6 +7,26 @@
   <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore-compat.js"></script>
 
+  <script>
+    if (window.Telegram?.WebApp) {
+      Telegram.WebApp.expand();
+      console.log("Telegram WebApp expanded");
+    }
+  </script>
+
+  <script>
+    if (window.Telegram && window.Telegram.WebApp) {
+      console.log('Telegram WebApp успешно подключен');
+      console.log('Версия API:', window.Telegram.WebApp.version);
+
+      Telegram.WebApp.expand();
+
+      if (Telegram.WebApp.initDataUnsafe.start_param) {
+        console.log('Открыто через кнопку Mini App с параметром:', Telegram.WebApp.initDataUnsafe.start_param);
+      }
+    }
+  </script>
+
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>TestTelegramLocation</title>
@@ -39,8 +59,14 @@
     </div>
   </div>
   <div id="unity-fullscreen-button" style="display: none;"></div>
-  
+
   <script>
+    // Принудительно разворачиваем WebApp при загрузке страницы
+    if (window.Telegram?.WebApp) {
+      Telegram.WebApp.expand(); // Важно: вызываем ДО загрузки Unity
+      console.log("Telegram WebApp expanded");
+    }
+
     const hideFullScreenButton = "";
     const buildUrl = "Build";
     const loaderUrl = buildUrl + "/Gnome_build_wgl.loader.js";
@@ -48,7 +74,7 @@
       dataUrl: buildUrl + "/Gnome_build_wgl.data",
       frameworkUrl: buildUrl + "/Gnome_build_wgl.framework.js",
       codeUrl: buildUrl + "/Gnome_build_wgl.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+      streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "geo-gnomes",
       productVersion: "1.0",
@@ -94,12 +120,13 @@
         loadingCover.style.display = "none";
 
         if (canFullscreen) {
+          unityInstance.SetFullscreen(1);
+          console.log("Unity fullscreen activated");
+
           if (!hideFullScreenButton) {
             fullscreenButton.style.display = "";
+            fullscreenButton.onclick = () => unityInstance.SetFullscreen(1);
           }
-          fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
         }
       }).catch((message) => {
         alert(message);
@@ -159,21 +186,6 @@
           forceReload();
         }
       }, 8000);
-    }
-  </script>
-  
-  <script>
-    if (!window.Telegram?.WebApp) {
-      window.Telegram = {
-        WebApp: {
-          expand: function() { console.log("Simulated expand"); },
-          viewport: {
-            requestFullscreen: function() {
-              document.documentElement.requestFullscreen();
-            }
-          }
-        }
-      };
     }
   </script>
 </body>
