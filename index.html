@@ -109,6 +109,10 @@
         window.unityInstance = unityInstance;
         loadingCover.style.display = "none";
 
+        if (!Telegram.WebApp.viewport.isFullscreen) {
+          Telegram.WebApp.viewport.requestFullscreen();
+        }
+
         if (canFullscreen) {
           unityInstance.SetFullscreen(1);
           console.log("Unity fullscreen activated");
