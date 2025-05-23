@@ -6,12 +6,14 @@
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._AKTagRef" preserve="all" />
     <type fullname="AKFramework.Generated._ConnectedMines" preserve="all" />
+    <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._MeshRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
     <type fullname="_Source.Code.ECS.Components.AddItemOnDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.ConnectedMines" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.HapticOnDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MeshRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Mine" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
