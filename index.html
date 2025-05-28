@@ -7,7 +7,9 @@
   <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-auth-compat.js"></script>
-  
+  <script src="https://static.sonartech.io/lib/1.0.0/sonar.js?appId=app_7afbf430&isDebug=true"></script>
+  <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+
   <script>
     if (window.Telegram?.WebApp?.platform !== 'unknown') {
       Telegram.WebApp.expand();
@@ -52,9 +54,8 @@
   <div id="unity-fullscreen-button" style="display: none;"></div>
 
   <script>
-    // Принудительно разворачиваем WebApp при загрузке страницы
     if (window.Telegram?.WebApp) {
-      Telegram.WebApp.expand(); // Важно: вызываем ДО загрузки Unity
+      Telegram.WebApp.expand();
       console.log("Telegram WebApp expanded");
     }
 
