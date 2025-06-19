@@ -6,18 +6,25 @@
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._AKTagRef" preserve="all" />
     <type fullname="AKFramework.Generated._ConnectedMines" preserve="all" />
+    <type fullname="AKFramework.Generated._Friend" preserve="all" />
+    <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
     <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._MeshRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
+    <type fullname="AKFramework.Generated._NameLabel" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
     <type fullname="_Source.Code.ECS.Components.AddItemOnDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.ConnectedMines" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.Friend" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.GeoPosition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.HapticOnDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MeshRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Mine" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.NameLabel" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Player" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.GeoPoint" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.ItemData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -30,6 +37,17 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
@@ -37,15 +55,30 @@
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
   <assembly fullname="AKFramework.Tags.Runtime">
     <type fullname="_Source.Code._AKFramework.AKTags.Runtime.AKTag" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKTags.Runtime.AKTagRef" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI">
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
