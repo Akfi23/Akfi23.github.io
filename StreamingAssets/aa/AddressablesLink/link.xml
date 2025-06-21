@@ -5,6 +5,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._AKTagRef" preserve="all" />
+    <type fullname="AKFramework.Generated._AutoDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._ConnectedMines" preserve="all" />
     <type fullname="AKFramework.Generated._Friend" preserve="all" />
     <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
@@ -14,7 +15,10 @@
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
     <type fullname="AKFramework.Generated._NameLabel" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
+    <type fullname="AKFramework.Generated._TextLabel" preserve="all" />
+    <type fullname="AKFramework.Generated._VFXOnHitData" preserve="all" />
     <type fullname="_Source.Code.ECS.Components.AddItemOnDestroy" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.AutoDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.ConnectedMines" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Friend" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.GeoPosition" preserve="nothing" serialized="true" />
@@ -24,8 +28,15 @@
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.NameLabel" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Player" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.TextLabel" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.VFXOnHitData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.GeoPoint" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.ItemData" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.VFXSpawnData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="CFXRRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CartoonFX.CFXR_Effect" preserve="all" />
+    <type fullname="CartoonFX.CFXR_Effect/CameraShake" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -40,12 +51,16 @@
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshPro" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -57,9 +72,15 @@
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
