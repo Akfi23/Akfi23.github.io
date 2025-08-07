@@ -5,6 +5,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._AKTagRef" preserve="all" />
+    <type fullname="AKFramework.Generated._AnimatorRef" preserve="all" />
     <type fullname="AKFramework.Generated._AutoDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._ConnectedMines" preserve="all" />
     <type fullname="AKFramework.Generated._Friend" preserve="all" />
@@ -18,6 +19,7 @@
     <type fullname="AKFramework.Generated._TextLabel" preserve="all" />
     <type fullname="AKFramework.Generated._VFXOnHitData" preserve="all" />
     <type fullname="_Source.Code.ECS.Components.AddItemOnDestroy" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.AnimatorRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.AutoDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.ConnectedMines" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Friend" preserve="nothing" serialized="true" />
@@ -59,6 +61,12 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
@@ -68,6 +76,7 @@
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
