@@ -168,10 +168,6 @@
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
   </assembly>
-  <assembly fullname="CFXRRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="CartoonFX.CFXR_Effect" preserve="all" />
-    <type fullname="CartoonFX.CFXR_Effect/CameraShake" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
     <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
