@@ -20,7 +20,7 @@ body {
 #unity-canvas {
     width: 100%;
     height: 100%;
-    background: #231F20;
+    background: #0085C6;
 }
 #loading-cover {
     position: absolute;
@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0085C6;
 }
 #unity-loading-bar {
     flex: 1 1 auto;
