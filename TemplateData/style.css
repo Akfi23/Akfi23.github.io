@@ -60,10 +60,10 @@ body {
     background: white;
 }
 .light #unity-progress-bar-empty {
-    border-color: black;
+    border-color: #0085C6
 }
 .light #unity-progress-bar-full {
-    background: black;
+    background-color: #0085C6;
 }
 
 #unity-fullscreen-button {
