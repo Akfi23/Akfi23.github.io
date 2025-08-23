@@ -65,6 +65,7 @@
     <type fullname="_Source.Code.Databases.VibrationsDatabase" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.AdsInterButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.AdsRewardButtonView" preserve="all" />
+    <type fullname="_Source.Code.UI.Buttons.CloseDestroyInfoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.DestroyBlocksButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.ExtraMiningAdsRewardButton" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.GoToMineButtonView" preserve="all" />
@@ -79,6 +80,7 @@
     <type fullname="_Source.Code.UI.Buttons.TrackGeoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.TutorialScreenButtonVIew" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.UpgradeButtonView" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.DestroyAllInfoPopup" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.FriendsScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.LeaderBoardScreen" preserve="all" />
