@@ -119,7 +119,9 @@
     <type fullname="ExtendedButton" preserve="all" />
     <type fullname="FingerTutorView" preserve="all" />
     <type fullname="HudButton" preserve="all" />
+    <type fullname="ImpulseSourceGenerator" preserve="all" />
     <type fullname="LongtapButton" preserve="all" />
+    <type fullname="Random90Rotation" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
@@ -183,10 +185,12 @@
   <assembly fullname="MPUIKit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MPUIKIT.MPImage" preserve="all" />
     <type fullname="MPUIKIT.MPImageBasic" preserve="all" />
+    <type fullname="MPUIKIT.ChamferBox" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Circle" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.GradientEffect" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Hexagon" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.NStarPolygon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Parallelogram" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Pentagon" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Rectangle" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Triangle" preserve="nothing" serialized="true" />
@@ -202,6 +206,11 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Cinemachine.CinemachineImpulseSource" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineImpulseDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineImpulseManager/EnvelopeDefinition" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
@@ -274,6 +283,7 @@
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
