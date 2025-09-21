@@ -95,7 +95,9 @@
     <type fullname="_Source.Code.UI.Views.PickaxeShopPanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ResourceItemView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.SaleableItemView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradeLevelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradePanelView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradeProgressBarView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradesScreenView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UserInfoView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ZoomMapSliderView" preserve="all" />
