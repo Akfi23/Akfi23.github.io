@@ -109,6 +109,7 @@
     <type fullname="AKFramework.Generated._Friend" preserve="all" />
     <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
     <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
+    <type fullname="AKFramework.Generated._MapObject" preserve="all" />
     <type fullname="AKFramework.Generated._MeshRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
@@ -133,6 +134,7 @@
     <type fullname="_Source.Code.ECS.Components.Friend" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.GeoPosition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.HapticOnDestroy" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.MapObject" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MeshRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Mine" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
