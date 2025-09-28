@@ -100,6 +100,38 @@
     }
     loadingCover.style.display = "";
 
+    // === БЛОКИРОВКА DEVICE ORIENTATION / MOTION (iOS Telegram Fix) ===
+    (function() {
+      const originalAddEventListener = EventTarget.prototype.addEventListener;
+      EventTarget.prototype.addEventListener = function(type, listener, options) {
+        if (
+                type === 'deviceorientation' ||
+                type === 'devicemotion' ||
+                type === 'compassneedscalibration'
+        ) {
+          console.log('[Blocked] Ignoring device orientation/motion listener');
+          return; // Блокируем подписку
+        }
+        return originalAddEventListener.call(this, type, listener, options);
+      };
+
+      // Мокаем requestPermission для iOS
+      if (typeof DeviceOrientationEvent !== 'undefined' &&
+              typeof DeviceOrientationEvent.requestPermission === 'function') {
+        DeviceOrientationEvent.requestPermission = async () => {
+          console.log('[Blocked] DeviceOrientationEvent.requestPermission() mocked');
+          return 'denied';
+        };
+      }
+      if (typeof DeviceMotionEvent !== 'undefined' &&
+              typeof DeviceMotionEvent.requestPermission === 'function') {
+        DeviceMotionEvent.requestPermission = async () => {
+          console.log('[Blocked] DeviceMotionEvent.requestPermission() mocked');
+          return 'denied';
+        };
+      }
+    })();
+
     const script = document.createElement("script");
     script.src = loaderUrl;
     script.onload = () => {
