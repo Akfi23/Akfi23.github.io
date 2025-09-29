@@ -65,7 +65,6 @@
     <type fullname="_Source.Code.Databases.VibrationsDatabase" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.AdsInterButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.AdsRewardButtonView" preserve="all" />
-    <type fullname="_Source.Code.UI.Buttons.CloseDestroyInfoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.DestroyBlocksButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.ExtraMiningAdsRewardButton" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.GoToMineButtonView" preserve="all" />
@@ -80,7 +79,6 @@
     <type fullname="_Source.Code.UI.Buttons.TrackGeoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.TutorialScreenButtonVIew" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.UpgradeButtonView" preserve="all" />
-    <type fullname="_Source.Code.UI.Screens.DestroyAllInfoPopup" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.FriendsScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.LeaderBoardScreen" preserve="all" />
@@ -110,11 +108,11 @@
     <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
     <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._MapObject" preserve="all" />
-    <type fullname="AKFramework.Generated._MeshRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
     <type fullname="AKFramework.Generated._NameLabel" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
+    <type fullname="AKFramework.Generated._SpriteRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._TextLabel" preserve="all" />
     <type fullname="AKFramework.Generated._VFXOnHitData" preserve="all" />
     <type fullname="ButtonClickTween" preserve="all" />
@@ -124,6 +122,7 @@
     <type fullname="HudButton" preserve="all" />
     <type fullname="LongtapButton" preserve="all" />
     <type fullname="Random90Rotation" preserve="all" />
+    <type fullname="RandomSpriteSetter" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
@@ -135,11 +134,11 @@
     <type fullname="_Source.Code.ECS.Components.GeoPosition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.HapticOnDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MapObject" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.MeshRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Mine" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.NameLabel" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Player" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.SpriteRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.TextLabel" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.VFXOnHitData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.GeoPoint" preserve="nothing" serialized="true" />
