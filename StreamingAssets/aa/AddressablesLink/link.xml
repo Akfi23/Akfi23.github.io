@@ -38,7 +38,6 @@
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.AKScreen" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.AKScreenContainer" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.AKScreenGroupContainer" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.FadeCurveScreenAnimation" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.FadeTextTweenScreenAnimation" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.FadeTweenScreenAnimation" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.MoveTweenScreenAnimation" preserve="nothing" serialized="true" />
