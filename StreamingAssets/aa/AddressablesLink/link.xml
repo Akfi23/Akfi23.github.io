@@ -157,6 +157,8 @@
     <type fullname="_Source.Code.Data.UserRatingData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Databases.VFXData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.LockConditions.InviteReferralLockCondition" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.LockConditions.ShareMessageLockCondition" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.LockConditions.ShareToStoryLockCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.AddItemsTutorialAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.BroadcastEventAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.OpenScreenAction" preserve="nothing" serialized="true" />
