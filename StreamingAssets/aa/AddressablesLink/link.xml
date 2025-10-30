@@ -79,6 +79,7 @@
     <type fullname="_Source.Code.UI.Buttons.TrackGeoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.TutorialScreenButtonVIew" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.UpgradeButtonView" preserve="all" />
+    <type fullname="_Source.Code.UI.DeleteAllSavesButton" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.DestroyAllInfoPopup" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.FriendsScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
@@ -124,6 +125,7 @@
     <type fullname="LongtapButton" preserve="all" />
     <type fullname="Random90Rotation" preserve="all" />
     <type fullname="RandomSpriteSetter" preserve="all" />
+    <type fullname="TestSaver" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
@@ -157,8 +159,6 @@
     <type fullname="_Source.Code.Data.UserRatingData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Databases.VFXData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.LockConditions.InviteReferralLockCondition" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.Objects.LockConditions.ShareMessageLockCondition" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.Objects.LockConditions.ShareToStoryLockCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.AddItemsTutorialAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.BroadcastEventAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.OpenScreenAction" preserve="nothing" serialized="true" />
