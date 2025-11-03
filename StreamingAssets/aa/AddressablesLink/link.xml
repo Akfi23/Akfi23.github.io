@@ -79,8 +79,8 @@
     <type fullname="_Source.Code.UI.Buttons.TrackGeoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.TutorialScreenButtonVIew" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.UpgradeButtonView" preserve="all" />
-    <type fullname="_Source.Code.UI.DeleteAllSavesButton" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.DestroyAllInfoPopup" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.FriendRemovePopup" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.FriendsScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.LeaderBoardScreen" preserve="all" />
@@ -94,6 +94,7 @@
     <type fullname="_Source.Code.UI.Views.MinePanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.PickaxeShopPanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ResourceItemView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.ReverseMaskTutorView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.SaleableItemView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradeLevelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradePanelView" preserve="all" />
@@ -125,7 +126,7 @@
     <type fullname="LongtapButton" preserve="all" />
     <type fullname="Random90Rotation" preserve="all" />
     <type fullname="RandomSpriteSetter" preserve="all" />
-    <type fullname="TestSaver" preserve="all" />
+    <type fullname="ReverseMaskUI" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
@@ -163,14 +164,20 @@
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.BroadcastEventAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.OpenScreenAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.RequestTGGeolocationAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetReverseMaskAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetReverseMaskOnBlockAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetTutorDescriptionAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetTutorFingerAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetTutorFingerOnBlockPosAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Conditions.ButtonClickedCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Conditions.ItemCountCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.TutorialData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.UpgradeData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.UpgradeLockConditionData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.ValueItem" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
   </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
@@ -259,6 +266,7 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
