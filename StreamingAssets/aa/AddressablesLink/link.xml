@@ -127,6 +127,7 @@
     <type fullname="Random90Rotation" preserve="all" />
     <type fullname="RandomSpriteSetter" preserve="all" />
     <type fullname="ReverseMaskUI" preserve="all" />
+    <type fullname="TestAvatar" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
