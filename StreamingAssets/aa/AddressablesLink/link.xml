@@ -85,6 +85,7 @@
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.LeaderBoardScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.MinesPopup" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.ShopScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Views.CurrentMinePowerView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.DescriptionTutorialView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.FlyingResourceItemView" preserve="all" />
@@ -99,7 +100,7 @@
     <type fullname="_Source.Code.UI.Views.UpgradeLevelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradePanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradeProgressBarView" preserve="all" />
-    <type fullname="_Source.Code.UI.Views.UpgradesScreenView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradesScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UserInfoView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ZoomMapSliderView" preserve="all" />
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
