@@ -38,7 +38,6 @@
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.AKScreen" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.AKScreenContainer" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.AKScreenGroupContainer" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.FadeCurveScreenAnimation" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.FadeTextTweenScreenAnimation" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.FadeTweenScreenAnimation" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code._AKFramework.AKUI.Runtime.Objects.MoveTweenScreenAnimation" preserve="nothing" serialized="true" />
@@ -65,6 +64,7 @@
     <type fullname="_Source.Code.Databases.VibrationsDatabase" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.AdsInterButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.AdsRewardButtonView" preserve="all" />
+    <type fullname="_Source.Code.UI.Buttons.CloseDestroyInfoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.DestroyBlocksButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.ExtraMiningAdsRewardButton" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.GoToMineButtonView" preserve="all" />
@@ -79,10 +79,13 @@
     <type fullname="_Source.Code.UI.Buttons.TrackGeoButtonView" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.TutorialScreenButtonVIew" preserve="all" />
     <type fullname="_Source.Code.UI.Buttons.UpgradeButtonView" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.DestroyAllInfoPopup" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.FriendRemovePopup" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.FriendsScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.LeaderBoardScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.MinesPopup" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.ShopScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Views.CurrentMinePowerView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.DescriptionTutorialView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.FlyingResourceItemView" preserve="all" />
@@ -92,9 +95,12 @@
     <type fullname="_Source.Code.UI.Views.MinePanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.PickaxeShopPanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ResourceItemView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.ReverseMaskTutorView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.SaleableItemView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradeLevelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradePanelView" preserve="all" />
-    <type fullname="_Source.Code.UI.Views.UpgradesScreenView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradeProgressBarView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradesScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UserInfoView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ZoomMapSliderView" preserve="all" />
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
@@ -105,11 +111,12 @@
     <type fullname="AKFramework.Generated._Friend" preserve="all" />
     <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
     <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
-    <type fullname="AKFramework.Generated._MeshRendererRef" preserve="all" />
+    <type fullname="AKFramework.Generated._MapObject" preserve="all" />
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
     <type fullname="AKFramework.Generated._NameLabel" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
+    <type fullname="AKFramework.Generated._SpriteRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._TextLabel" preserve="all" />
     <type fullname="AKFramework.Generated._VFXOnHitData" preserve="all" />
     <type fullname="ButtonClickTween" preserve="all" />
@@ -118,6 +125,9 @@
     <type fullname="FingerTutorView" preserve="all" />
     <type fullname="HudButton" preserve="all" />
     <type fullname="LongtapButton" preserve="all" />
+    <type fullname="Random90Rotation" preserve="all" />
+    <type fullname="RandomSpriteSetter" preserve="all" />
+    <type fullname="ReverseMaskUI" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
@@ -128,11 +138,12 @@
     <type fullname="_Source.Code.ECS.Components.Friend" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.GeoPosition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.HapticOnDestroy" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.MeshRendererRef" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.MapObject" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Mine" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.NameLabel" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Player" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.SpriteRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.TextLabel" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.VFXOnHitData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.GeoPoint" preserve="nothing" serialized="true" />
@@ -150,14 +161,15 @@
     <type fullname="_Source.Code.Data.UserRatingData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Databases.VFXData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.LockConditions.InviteReferralLockCondition" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.Objects.LockConditions.ShareMessageLockCondition" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.Objects.LockConditions.ShareToStoryLockCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.AddItemsTutorialAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.BroadcastEventAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.OpenScreenAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.RequestTGGeolocationAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetReverseMaskAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetReverseMaskOnBlockAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetTutorDescriptionAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetTutorFingerAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetTutorFingerOnBlockPosAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Conditions.ButtonClickedCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Conditions.ItemCountCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.TutorialData" preserve="nothing" serialized="true" />
@@ -181,10 +193,12 @@
   <assembly fullname="MPUIKit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MPUIKIT.MPImage" preserve="all" />
     <type fullname="MPUIKIT.MPImageBasic" preserve="all" />
+    <type fullname="MPUIKIT.ChamferBox" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Circle" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.GradientEffect" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Hexagon" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.NStarPolygon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Parallelogram" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Pentagon" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Rectangle" preserve="nothing" serialized="true" />
     <type fullname="MPUIKIT.Triangle" preserve="nothing" serialized="true" />
@@ -196,6 +210,26 @@
   <assembly fullname="ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="NodeCanvas.Framework.Blackboard" preserve="all" />
     <type fullname="NodeCanvas.Framework.Internal.GraphSource" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Tayx.Graphy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Graphy.Runtime.UI.G_SafeArea" preserve="all" />
+    <type fullname="Tayx.Graphy.Advanced.G_AdvancedData" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioGraph" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioMonitor" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioText" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsGraph" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsMonitor" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsText" preserve="all" />
+    <type fullname="Tayx.Graphy.GraphyDebugger" preserve="all" />
+    <type fullname="Tayx.Graphy.GraphyManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamGraph" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamMonitor" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamText" preserve="all" />
+    <type fullname="Tayx.Graphy.GraphyDebugger/DebugCondition" preserve="nothing" serialized="true" />
+    <type fullname="Tayx.Graphy.GraphyDebugger/DebugPacket" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -231,8 +265,10 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
@@ -270,6 +306,7 @@
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
@@ -280,6 +317,8 @@
     <type fullname="UnityEngine.UI.InputField" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.PositionAsUV1" preserve="all" />
     <type fullname="UnityEngine.UI.RawImage" preserve="all" />
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
