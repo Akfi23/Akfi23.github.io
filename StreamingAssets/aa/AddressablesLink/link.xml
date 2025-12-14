@@ -210,26 +210,6 @@
     <type fullname="NodeCanvas.Framework.Blackboard" preserve="all" />
     <type fullname="NodeCanvas.Framework.Internal.GraphSource" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Tayx.Graphy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Graphy.Runtime.UI.G_SafeArea" preserve="all" />
-    <type fullname="Tayx.Graphy.Advanced.G_AdvancedData" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioGraph" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioMonitor" preserve="all" />
-    <type fullname="Tayx.Graphy.Audio.G_AudioText" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsGraph" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsMonitor" preserve="all" />
-    <type fullname="Tayx.Graphy.Fps.G_FpsText" preserve="all" />
-    <type fullname="Tayx.Graphy.GraphyDebugger" preserve="all" />
-    <type fullname="Tayx.Graphy.GraphyManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamGraph" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamManager" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamMonitor" preserve="all" />
-    <type fullname="Tayx.Graphy.Ram.G_RamText" preserve="all" />
-    <type fullname="Tayx.Graphy.GraphyDebugger/DebugCondition" preserve="nothing" serialized="true" />
-    <type fullname="Tayx.Graphy.GraphyDebugger/DebugPacket" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
