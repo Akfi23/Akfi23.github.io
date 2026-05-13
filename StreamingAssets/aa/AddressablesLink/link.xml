@@ -109,24 +109,15 @@
     <type fullname="AKFramework.Generated._AKTagRef" preserve="all" />
     <type fullname="AKFramework.Generated._AnimatorRef" preserve="all" />
     <type fullname="AKFramework.Generated._AutoDestroy" preserve="all" />
-    <type fullname="AKFramework.Generated._CameraRef" preserve="all" />
     <type fullname="AKFramework.Generated._ConnectedMines" preserve="all" />
     <type fullname="AKFramework.Generated._ExplodableBlock" preserve="all" />
     <type fullname="AKFramework.Generated._Friend" preserve="all" />
     <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
-    <type fullname="AKFramework.Generated._GoldMine" preserve="all" />
     <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
-    <type fullname="AKFramework.Generated._Location" preserve="all" />
-    <type fullname="AKFramework.Generated._Map" preserve="all" />
-    <type fullname="AKFramework.Generated._MapCamera" preserve="all" />
     <type fullname="AKFramework.Generated._MapObject" preserve="all" />
-    <type fullname="AKFramework.Generated._MapsMarker3DManager" preserve="all" />
-    <type fullname="AKFramework.Generated._MapsMarkerManager" preserve="all" />
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
     <type fullname="AKFramework.Generated._NameLabel" preserve="all" />
-    <type fullname="AKFramework.Generated._Navigation" preserve="all" />
-    <type fullname="AKFramework.Generated._NavigationRouteDrawer" preserve="all" />
     <type fullname="AKFramework.Generated._NotDestroyable" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
     <type fullname="AKFramework.Generated._SfxOnDestroy" preserve="all" />
@@ -138,22 +129,10 @@
     <type fullname="ExtendedButton" preserve="all" />
     <type fullname="FingerTutorView" preserve="all" />
     <type fullname="HudButton" preserve="all" />
-    <type fullname="InfinityCode.OnlineMapsDemos.Navigation" preserve="all" />
-    <type fullname="InfinityCode.OnlineMapsDemos.NavigationRouteDrawer" preserve="all" />
-    <type fullname="InfinityCode.OnlineMapsDemos.SmoothZoomOnMouseEvents" preserve="all" />
     <type fullname="LongtapButton" preserve="all" />
-    <type fullname="OnlineMaps" preserve="all" />
-    <type fullname="OnlineMapsCameraOrbit" preserve="all" />
-    <type fullname="OnlineMapsKeyManager" preserve="all" />
-    <type fullname="OnlineMapsLocationService" preserve="all" />
-    <type fullname="OnlineMapsMarker3DManager" preserve="all" />
-    <type fullname="OnlineMapsMarkerManager" preserve="all" />
-    <type fullname="OnlineMapsPBR" preserve="all" />
-    <type fullname="OnlineMapsTileSetControl" preserve="all" />
     <type fullname="Random90Rotation" preserve="all" />
     <type fullname="RandomSpriteSetter" preserve="all" />
     <type fullname="ReverseMaskUI" preserve="all" />
-    <type fullname="UILinkToWorldPosition" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Core.UnigramPaymentSDK" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItem" preserve="all" />
     <type fullname="UnigramPayment.Runtime.Data.SaleableItemsStorage" preserve="all" />
@@ -178,15 +157,6 @@
     <type fullname="_Source.Code.Objects.GeoPoint" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.ItemData" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.VFXSpawnData" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.CameraRef" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.GoldMine" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.Location" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.Map" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.MapCamera" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.MapsMarker3DManager" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.MapsMarkerManager" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="_Source.Code.ECS.Components.NavigationRouteDrawer" preserve="nothing" serialized="true" />
     <type fullname="UnigramPayment.Runtime.Data.AddItemsPurchaseAction" preserve="nothing" serialized="true" />
     <type fullname="UnigramPayment.Runtime.Data.EarnExtraOfflineMiningPurchaseAction" preserve="nothing" serialized="true" />
     <type fullname="UnigramPayment.Runtime.Data.EarnExtraOfflineMiningWithoutAdsPurchaseAction" preserve="nothing" serialized="true" />
@@ -257,7 +227,6 @@
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -286,13 +255,11 @@
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
-    <type fullname="UnityEngine.AudioListener" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
-    <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
