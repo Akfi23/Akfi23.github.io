@@ -109,6 +109,7 @@
     <type fullname="AKFramework.Generated._AnimatorRef" preserve="all" />
     <type fullname="AKFramework.Generated._AutoDestroy" preserve="all" />
     <type fullname="AKFramework.Generated._ConnectedMines" preserve="all" />
+    <type fullname="AKFramework.Generated._ExplodableBlock" preserve="all" />
     <type fullname="AKFramework.Generated._Friend" preserve="all" />
     <type fullname="AKFramework.Generated._GeoPosition" preserve="all" />
     <type fullname="AKFramework.Generated._HapticOnDestroy" preserve="all" />
@@ -116,6 +117,7 @@
     <type fullname="AKFramework.Generated._Mine" preserve="all" />
     <type fullname="AKFramework.Generated._MineBlock" preserve="all" />
     <type fullname="AKFramework.Generated._NameLabel" preserve="all" />
+    <type fullname="AKFramework.Generated._NotDestroyable" preserve="all" />
     <type fullname="AKFramework.Generated._Player" preserve="all" />
     <type fullname="AKFramework.Generated._SpriteRendererRef" preserve="all" />
     <type fullname="AKFramework.Generated._TextLabel" preserve="all" />
@@ -136,6 +138,7 @@
     <type fullname="_Source.Code.ECS.Components.AnimatorRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.AutoDestroy" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.ConnectedMines" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.ExplodableBlock" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Friend" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.GeoPosition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.HapticOnDestroy" preserve="nothing" serialized="true" />
@@ -143,6 +146,7 @@
     <type fullname="_Source.Code.ECS.Components.Mine" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.MineBlock" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.NameLabel" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.ECS.Components.NotDestroyable" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.Player" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.SpriteRendererRef" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.ECS.Components.TextLabel" preserve="nothing" serialized="true" />
@@ -287,9 +291,9 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
