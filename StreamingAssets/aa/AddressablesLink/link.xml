@@ -85,10 +85,12 @@
     <type fullname="_Source.Code.UI.Screens.IdlePrizePopupView" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.LeaderBoardScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Screens.MinesPopup" preserve="all" />
+    <type fullname="_Source.Code.UI.Screens.ShopScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Views.CurrentMinePowerView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.DescriptionTutorialView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.FlyingResourceItemView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.FriendsDataPanelView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.GnomeAnimatorView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.LeaderBoardInfoPanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.MineMultiplierView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.MinePanelView" preserve="all" />
@@ -99,7 +101,7 @@
     <type fullname="_Source.Code.UI.Views.UpgradeLevelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradePanelView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UpgradeProgressBarView" preserve="all" />
-    <type fullname="_Source.Code.UI.Views.UpgradesScreenView" preserve="all" />
+    <type fullname="_Source.Code.UI.Views.UpgradesScreen" preserve="all" />
     <type fullname="_Source.Code.UI.Views.UserInfoView" preserve="all" />
     <type fullname="_Source.Code.UI.Views.ZoomMapSliderView" preserve="all" />
     <type fullname="AKFramework.Generated._AddItemOnDestroy" preserve="all" />
@@ -162,6 +164,7 @@
     <type fullname="_Source.Code.Objects.LockConditions.InviteReferralLockCondition" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.AddItemsTutorialAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.BroadcastEventAction" preserve="nothing" serialized="true" />
+    <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.CloseScreenAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.OpenScreenAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.RequestTGGeolocationAction" preserve="nothing" serialized="true" />
     <type fullname="_Source.Code.Objects.Tutorial.NewTutorial.Actions.SetReverseMaskAction" preserve="nothing" serialized="true" />
